@@ -50,6 +50,10 @@
         display: none;
     }
 
+    .header .nav-mobile {
+        display: block;
+    }
+
     .header .header-group-link span:not(.number-none) {
         display: none;
     }

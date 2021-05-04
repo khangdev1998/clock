@@ -363,6 +363,7 @@ color: #fff;
   transition: transform linear 0.4s;
   z-index: 9898998966666699999999999999999999999998;
   overflow: scroll;
+  display: none;
 }
 
 .header .nav-mobile label i {
