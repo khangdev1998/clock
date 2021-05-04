@@ -1,0 +1,190 @@
+/* RESPONSIVE SCREEN IPAD - GIAO DIỆN MÁY TÍNH BẢNG <==== 1024PX */
+@media only screen and (max-width: 1024px) {
+    .header .nav-menu ul li a {
+        font-size: 14px;
+    }
+
+    .header .nav-menu .sub-menu li a {
+        font-size: 12px;
+    }
+
+    .header .header-group-link {
+        margin-right: 18px;
+    }
+
+    .product-card:hover figcaption .product-content {
+        display: block;
+    }
+
+    .product-card:hover .add-to-cart,
+    .product-card.hover .add-to-cart {
+        display: none;
+    }
+
+    .dms.reveal > .hidden.content {
+        position: relative;
+    }
+
+    .dms.fade.reveal:hover > .visible.content {
+        opacity: inherit;
+    }
+
+    .newspaper .newspaper-image {
+        height: 160px;
+    }
+
+
+}
+/* RESPONSIVE SCREEN MOBILE - GIAO DIỆN ĐIỆN THOẠI <==== 990PX */
+@media only screen and (max-width: 990px) {
+    .header .header-top label {
+        display: block;
+        width: 100%;
+    }
+
+    .header .container:nth-child(2) {
+        display: none;
+    }
+
+    .header .header-hotline {
+        display: none;
+    }
+
+    .header .header-group-link span:not(.number-none) {
+        display: none;
+    }
+
+    .header .header-group-link, .header .header-icon {
+        margin-right: 6px;
+    }
+
+    .background {
+        height: 450px;
+    }
+
+    .background .background-content {
+        font-size: 14px;
+        width: 588px;
+    }
+
+    .background .background-content h1 {
+        font-size: 22px;
+    }
+
+    .newspaper-list {
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 20px;
+    }
+
+    .newspaper .newspaper-image {
+        height: 237px;
+    }
+
+    .newspaper h3 {
+        font-size: 15px;
+    }
+
+    .newspaper p {
+        font-size: 14px;
+    }
+
+    .newspaper .btn {
+        margin: 20px auto;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    #scroll {
+        display: none !important;
+    }
+
+    .heading-text {
+        /* margin-bottom: 20px; */
+    }
+
+    .header .header-top label i {
+        font-size: 22px;
+    }
+
+    .header .header-logo {
+        min-width: 100px;
+    }
+
+    .section .container {
+        justify-content: center;
+    }
+
+    .product .product-main,
+    .product-male .product-main,
+    .product-new .product-main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section .section-main {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 20px;
+    }
+
+    .background {
+        height: 400px;
+    }
+
+    .background .background-content {
+        width: 100%;
+        left: 0;
+        padding: 0 15px;
+    }
+
+    .newspaper .newspaper-list {
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 0;
+    }
+
+    .newspaper .newspaper-items {
+        border-top: 1px solid #e5e5e5;
+        padding: 20px 0;
+    }
+
+    .newspaper .newspaper-image {
+        height: auto;
+        width: 120px;
+    }
+
+    .newspaper a {
+        display: -webkit-inline-box;
+    }
+
+    .newspaper h3 {
+        padding: 0 10px;
+        width: 65%;
+        display: revert;
+        margin: 0;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .newspaper .heading-text {
+        margin-bottom: 20px;
+    }
+
+    .newspaper p {
+        display: none;
+    }
+
+    .footer .container {
+        display: inherit;
+    }
+
+    .footer .footer-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .copyright span {
+        display: none;
+    }
+
+    .copyright a {
+        display: block;
+        margin-top: 5px;
+    }
+}
