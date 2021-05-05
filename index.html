@@ -19,9 +19,11 @@
         <div class="header">
             <div class="container">
                     <div class="header-top">
-                        <label for="input-mobile-click">
-                            <i class="fas fa-bars"></i>
-                        </label>
+                        <div class="bars-mobile">
+                            <label for="input-mobile-click">
+                                <i class="fas fa-bars"></i>
+                            </label>
+                        </div>
                         <input hidden type="checkbox" id="input-mobile-click">
                         <label for="input-mobile-click" class="overlay-box"></label>
                         <div class="nav-mobile">
@@ -537,7 +539,7 @@
         </div>
 
         <div class="background">
-            <video playsinline autoplay loop muted>
+            <video id="contentVideo" controlslist="nodownload" playsinline autoplay loop muted>
                 <source src="video/background-clock.mp4" type="video/mp4">
             </video>
 

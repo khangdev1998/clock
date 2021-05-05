@@ -37,7 +37,7 @@
 }
 /* RESPONSIVE SCREEN MOBILE - GIAO DIỆN ĐIỆN THOẠI <==== 990PX */
 @media only screen and (max-width: 990px) {
-    .header .header-top label {
+    .header .bars-mobile {
         display: block;
         width: 100%;
     }
@@ -183,12 +183,18 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .footer h3 {
+        margin: 0;
+        padding: 12px 0;
+    }
+
     .copyright span {
         display: none;
     }
 
     .copyright a {
         display: block;
-        margin-top: 5px;
+        width: fit-content;
+        margin: 5px auto 0;
     }
 }

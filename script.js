@@ -19,3 +19,8 @@ $(document).ready(function(){
       return false; 
   }); 
 });
+
+// NO DOWNLOAD VIDEO 
+$ (function() {
+  $ ('#contentVideo').bind('contextmenu',function() { return false; });
+});
