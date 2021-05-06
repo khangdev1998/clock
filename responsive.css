@@ -194,6 +194,7 @@
 
     .copyright a {
         display: block;
+        width: -moz-fit-content;
         width: fit-content;
         margin: 5px auto 0;
     }

@@ -141,6 +141,12 @@ html {
   letter-spacing:3px;
   text-transform:uppercase;
   font-size:15px;
+  display:-webkit-box;
+  -webkit-line-clamp:1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
 }
 
 .product-pirce {
@@ -555,7 +561,7 @@ color: #fff;
 
 .header .sub-menu {
   position:absolute;
-  top:54px;
+  top:53px;
   min-width:240px;
   height:auto;
   display:block;
@@ -775,12 +781,14 @@ color: #fff;
 }
 
 .newspaper h3 {
-  display: -webkit-box;
-    -webkit-line-clamp: 2;
+    display:-webkit-box;
+    -webkit-line-clamp:2;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
     margin: 8px 0;
-    font-size: 18px;
+    font-size: 16px;
     letter-spacing: 1.2px;
     text-align: left;
     text-transform: uppercase;
@@ -788,10 +796,12 @@ color: #fff;
 }
 
 .newspaper p {
-  display: -webkit-box;
-    -webkit-line-clamp: 4;
+    display:-webkit-box;
+    -webkit-line-clamp:3;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
     font-size: 15px;
     text-align: left;
     line-height: 1.8;
